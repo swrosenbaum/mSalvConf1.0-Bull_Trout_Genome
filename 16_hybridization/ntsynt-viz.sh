@@ -1,0 +1,12 @@
+ntsynt_viz.py \
+       --blocks /mnt/beegfs/scratch/sr221061/bull/8_brook-trout/outputs/bull-brook.synteny_blocks.tsv \
+       --fais /mnt/beegfs/scratch/sr221061/bull/8_brook-trout/inputs/fais.txt \
+       --name_conversion /mnt/beegfs/scratch/sr221061/bull/8_brook-trout/inputs/names.tsv \
+       --prefix bull-brook \
+       --target-genome mSalvConf \
+       --normalize \
+       --centromeres /mnt/beegfs/scratch/sr221061/bull/8_brook-trout/inputs/formatted_centromeres.tsv \
+       --length 500000 \
+       --ribbon_adjust 0.14 \
+       --scale 1e9 \
+       --dpi 600

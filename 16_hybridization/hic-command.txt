@@ -1,0 +1,1 @@
+nextflow run curationpretext -profile singularity -params-file params.yaml

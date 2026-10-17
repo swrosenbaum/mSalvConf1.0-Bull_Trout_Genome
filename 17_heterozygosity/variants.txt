@@ -1,0 +1,5 @@
+nextflow run variantcalling \
+             --input samplesheet.csv \
+             --outdir /mnt/beegfs/scratch/sr221061/bull/9_IDrisk/outputs/variant \
+             --fasta /mnt/beegfs/scratch/sr221061/bull/9_IDrisk/scripts/map/mSalvConf1.0_chr.fa \
+              -profile singularity

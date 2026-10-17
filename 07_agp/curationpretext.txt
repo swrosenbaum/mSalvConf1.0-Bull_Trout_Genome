@@ -1,0 +1,13 @@
+input: "/mnt/beegfs/scratch/sr221061/bull/2_asm/04_scaffold/outputs/mSalvConf1.0_scaffolds_final.fa"
+reads:
+  - "/mnt/beegfs/scratch/sr221061/bull/3_curation/outputs/hifi/merged.hifi.filt.fasta.gz"
+cram:
+  - "/mnt/beegfs/scratch/sr221061/bull/3_curation/outputs/cram/mSalvConf1.0.cram"
+read_type: "hifi"
+sample: "mSalvConf1.0"
+teloseq: "TTAGGG"
+map_order: "length"
+all_output: true
+outdir: "/mnt/beegfs/scratch/sr221061/bull/3_curation/outputs/curationpretext"
+run_ultra: "yes"
+validate_params: false

@@ -1,0 +1,7 @@
+nextflow run readmapping -profile singularity \
+                         --input /mnt/beegfs/scratch/sr221061/bull/9_IDrisk/scripts/map/samplesheet.csv \
+                         --fasta /mnt/beegfs/scratch/sr221061/bull/9_IDrisk/scripts/map/mSalvConf1.0_chr.fa \
+                         --outdir /mnt/beegfs/scratch/sr221061/bull/9_IDrisk/outputs/map \
+                         --outfmt "bam" \
+                         --email "sam.rosenbaum@umontana.edu" \
+                         -resume

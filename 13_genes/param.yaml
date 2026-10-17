@@ -1,0 +1,3 @@
+genome: /mnt/beegfs/scratch/sr221061/bull/5_ncbi_sub/outputs/mSalvConf1.0.fsa
+taxid: 8037
+short_reads: ((txid8038[Organism] AND PRJNA256998[BioProject]) OR (txid8036[Organism] AND PRJNA1127029[BioProject])) AND biomol_rna[Properties]

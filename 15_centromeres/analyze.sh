@@ -1,0 +1,12 @@
+easycen analyze --fasta /mnt/beegfs/scratch/sr221061/bull/6_post-ncbi/01_stats/2_chr/outputs/mSalvConf1.0_chr.fsa \
+                --kmer 17 \
+                --window 20000 \
+                --step 10000 \
+                --min-centromere-size 40000 \
+                --output /mnt/beegfs/scratch/sr221061/bull/6_post-ncbi/03_centros/outputs \
+                --processes 30 \
+                --min-count 5 \
+                --exclude-telomere animal \
+                --max-output 10000000 \
+                --numba \
+                --adaptive-expand

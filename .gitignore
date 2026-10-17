@@ -1,0 +1,5 @@
+*.out
+*.err
+*.log
+.DS_Store
+*.tmp

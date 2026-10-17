@@ -1,0 +1,10 @@
+input: "/mnt/beegfs/scratch/sr221061/bull/5_ncbi_sub/outputs/mSalvConf1.0.fsa"
+cram:
+  - "/mnt/beegfs/scratch/sr221061/bull/8_brook-trout/inputs/brook/mSalvFont1.0.cram"
+sample: "bullG-brookC"
+teloseq: "TTAGGG"
+map_order: "length"
+all_output: true
+skip_tracks: "ALL"
+outdir: "/mnt/beegfs/scratch/sr221061/bull/8_brook-trout/outputs/bullG-brookC"
+validate_params: false
